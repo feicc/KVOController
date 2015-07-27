@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0500"
+   LastUpgradeVersion = "0640"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,9 +14,23 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "ECEA60FD18A49C620064AFF4"
-               BuildableName = "libFBKVOController.a"
-               BlueprintName = "FBKVOController"
+               BlueprintIdentifier = "756379C61B66ABCF00F3CA6D"
+               BuildableName = "KVOController.framework"
+               BlueprintName = "KVOControllerOSX"
+               ReferencedContainer = "container:FBKVOController.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "756379D01B66ABCF00F3CA6D"
+               BuildableName = "KVOControllerTests.xctest"
+               BlueprintName = "KVOControllerTests"
                ReferencedContainer = "container:FBKVOController.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,13 +46,22 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "ECEA610D18A49C620064AFF4"
-               BuildableName = "FBKVOControllerTests.xctest"
-               BlueprintName = "FBKVOControllerTests"
+               BlueprintIdentifier = "756379D01B66ABCF00F3CA6D"
+               BuildableName = "KVOControllerTests.xctest"
+               BlueprintName = "KVOControllerTests"
                ReferencedContainer = "container:FBKVOController.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "756379C61B66ABCF00F3CA6D"
+            BuildableName = "KVOController.framework"
+            BlueprintName = "KVOControllerOSX"
+            ReferencedContainer = "container:FBKVOController.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </TestAction>
    <LaunchAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
@@ -52,9 +75,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "ECEA60FD18A49C620064AFF4"
-            BuildableName = "libFBKVOController.a"
-            BlueprintName = "FBKVOController"
+            BlueprintIdentifier = "756379C61B66ABCF00F3CA6D"
+            BuildableName = "KVOController.framework"
+            BlueprintName = "KVOControllerOSX"
             ReferencedContainer = "container:FBKVOController.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -67,6 +90,15 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "756379C61B66ABCF00F3CA6D"
+            BuildableName = "KVOController.framework"
+            BlueprintName = "KVOControllerOSX"
+            ReferencedContainer = "container:FBKVOController.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
